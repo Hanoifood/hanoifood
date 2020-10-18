@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5b2e351cc93045634375bfe712b31607",
+    "revision": "f3d206936404b3d6042079311608ec34",
     "url": "/hanoitravel/index.html"
   },
   {
-    "revision": "593f7a43436caf0215ca",
+    "revision": "c4c5bc1d76945d5c57dd",
     "url": "/hanoitravel/static/css/2.4e0b54ea.chunk.css"
   },
   {
-    "revision": "9217d2efde67bdbffe30",
+    "revision": "5279744623a23044b649",
     "url": "/hanoitravel/static/css/main.5a912c1b.chunk.css"
   },
   {
-    "revision": "593f7a43436caf0215ca",
-    "url": "/hanoitravel/static/js/2.dc686745.chunk.js"
+    "revision": "c4c5bc1d76945d5c57dd",
+    "url": "/hanoitravel/static/js/2.9a773cc4.chunk.js"
   },
   {
     "revision": "c4a943e7ed0bc88a2d72cdf46f045905",
-    "url": "/hanoitravel/static/js/2.dc686745.chunk.js.LICENSE.txt"
+    "url": "/hanoitravel/static/js/2.9a773cc4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9217d2efde67bdbffe30",
-    "url": "/hanoitravel/static/js/main.22d2572c.chunk.js"
+    "revision": "5279744623a23044b649",
+    "url": "/hanoitravel/static/js/main.f22ca515.chunk.js"
   },
   {
     "revision": "c6202093deb6f3604af7",
