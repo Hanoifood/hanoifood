@@ -11,7 +11,7 @@
 		"antd": "^4.7.0",
 		"axios": "^0.20.0",
 		"bootstrap": "^4.4.1",
-		"gh-pages": "^2.2.0",
+		"gh-pages": "^3.1.0",
 		"nvm": "^0.0.4",
 		"react": "^16.13.0",
 		"react-dom": "^16.13.0",
@@ -51,5 +51,5 @@
 			"last 1 safari version"
 		]
 	},
-	"homepage": "http://trunghieu99tt.github.io/Video-Blog"
+	"homepage": "http://Hanoifood.github.io/hanoitravel"
 }

@@ -1,5 +1,5 @@
 import React, { Component, useEffect } from "react";
-import { Route, Switch } from "react-router-dom";
+import { Route, Switch, useHistory } from "react-router-dom";
 import ReactGA from "react-ga";
 
 import { usePostsContext } from "./context/posts.context";
@@ -59,6 +59,15 @@ const App = () => {
                         return <Home />;
                     }}
                 />
+                <Route
+                    exact
+                    path="/hanoitravel"
+                    render={(props) => {
+                        ReactGA.pageview(props.location.pathname);
+                        return <Home />;
+                    }}
+                />
+
                 <Route
                     exact
                     path="/ve-chung-toi"
