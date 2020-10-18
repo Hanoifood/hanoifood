@@ -1,108 +1,112 @@
 .main-content {
-	background: #fff;
+    background: #fff;
 }
 
 .page-title {
-	.main-top {
-		min-height: 30vh;
+    .main-top {
+        min-height: 30vh;
 
-		.content {
-			padding: 60px 0;
-			text-align: center;
+        .content {
+            padding: 60px 0;
+            text-align: center;
 
-			h1 {
-				color: #fff;
-				&:hover {
-					color: $red-color;
-				}
-			}
+            h1 {
+                color: #fff;
+                &:hover {
+                    color: $red-color;
+                }
+            }
 
-			ul {
-				display: flex;
-				justify-content: center;
+            ul {
+                display: flex;
+                justify-content: center;
 
-				li {
-					span {
-						color: #fff;
-						font-size: 15px;
-						margin: 0 5px;
-					}
-				}
-			}
-		}
-	}
+                li {
+                    span {
+                        color: #fff;
+                        font-size: 15px;
+                        margin: 0 5px;
+                    }
+                }
+            }
+        }
+    }
 }
 
 .page-content {
-	padding-top: 65px;
+    padding-top: 65px;
 
-	.wrap-filter-group {
-		overflow: hidden;
+    .wrap-filter-group {
+        overflow: hidden;
 
-		.form_filter_mobile {
-			display: none;
-		}
+        .form_filter_mobile {
+            display: none;
+        }
 
-		.filter-tope-group {
-			display: flex;
-			flex-wrap: wrap;
-			margin-left: -30px;
-			padding-bottom: 20px;
-			border-bottom: 1px solid #d6dee5;
-			margin-bottom: 3rem;
+        .filter-tope-group {
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: -30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #d6dee5;
+            margin-bottom: 3rem;
 
-			.item-tope {
-				font-weight: 300;
-				font-size: 16px;
-				line-height: 1.625;
-				color: #292929;
-				word-break: break-word;
-				margin: 8px 30px 0;
-				padding: 12px 0;
-				position: relative;
-				cursor: pointer;
-				transition: all 0.2s;
+            .item-tope {
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 1.625;
+                color: #292929;
+                word-break: break-word;
+                margin: 8px 30px 0;
+                padding: 12px 0;
+                position: relative;
+                cursor: pointer;
+                transition: all 0.2s;
 
-				&:hover {
-					color: $red-color;
-				}
+                &:hover {
+                    color: $red-color;
+                }
 
-				&::before {
-					content: "•";
-					color: #cecece;
-					position: absolute;
-					top: 12px;
-					left: -32px;
-				}
+                &::before {
+                    content: "•";
+                    color: #cecece;
+                    position: absolute;
+                    top: 12px;
+                    left: -32px;
+                }
 
-				&::after {
-					content: "";
-					display: block;
-					width: 100%;
-					height: 1px;
-					background: $red-color;
-					position: absolute;
-					bottom: 0;
-					left: 0;
-					opacity: 1;
-				}
-			}
-		}
-	}
+                &::after {
+                    content: "";
+                    display: block;
+                    width: 100%;
+                    height: 1px;
+                    background: $red-color;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    opacity: 1;
+                }
+            }
+        }
+    }
 
-	.videos-gallery {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-		grid-row-gap: 30px;
-		padding-bottom: 30px;
+    .videos-gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-row-gap: 30px;
+        padding-bottom: 30px;
 
-		.card2__title {
-			a {
-				color: #000;
-			}
-		}
-		.card2__info {
-			display: none;
-		}
-	}
+        .card2__title {
+            a {
+                color: #000;
+            }
+        }
+        .card2__info {
+            display: none;
+        }
+    }
+
+    .ant-pagination {
+        padding-bottom: 50px;
+    }
 }

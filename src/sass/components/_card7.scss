@@ -1,60 +1,65 @@
 .card7 {
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-start;
-	flex-wrap: wrap;
-	margin-bottom: 30px;
-	&__pic {
-		width: 201px;
-		overflow: hidden;
-	}
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    &__pic {
+        width: 201px;
+        overflow: hidden;
 
-	&__text {
-		width: calc(100% - 201px - 25px);
-	}
+        img {
+            min-height: 15rem;
+            object-fit: cover;
+        }
+    }
 
-	&__info {
-		font-weight: 300;
-		font-size: 14px;
-		line-height: 1.85;
-		color: #e40914;
-		text-transform: uppercase;
-		word-break: break-word;
-		margin-bottom: 2px;
-	}
+    &__text {
+        width: calc(100% - 201px - 25px);
+    }
 
-	&__title {
-		font-weight: 600;
-		font-size: 16px;
-		line-height: 1.625;
-		color: #fff;
-		word-break: break-word;
-		margin-bottom: 16px;
-		display: -webkit-box;
-		-webkit-line-clamp: 1;
-		-webkit-box-orient: vertical;
-		overflow: hidden;
-		height: 25px;
+    &__info {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 1.85;
+        color: #e40914;
+        text-transform: uppercase;
+        word-break: break-word;
+        margin-bottom: 2px;
+    }
 
-		a {
-			color: #fff;
-			transition: all 0.2s;
-			&:hover {
-				color: $red-color;
-			}
-		}
-	}
+    &__title {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 1.625;
+        color: #fff;
+        word-break: break-word;
+        margin-bottom: 16px;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        height: 25px;
 
-	&__description {
-		font-weight: 300;
-		font-size: 16px;
-		line-height: 1.5;
-		color: #7c7c7c;
-		max-height: 72px;
-		word-break: break-word;
-		display: -webkit-box;
-		-webkit-line-clamp: 3;
-		-webkit-box-orient: vertical;
-		overflow: hidden;
-	}
+        a {
+            color: #fff;
+            transition: all 0.2s;
+            &:hover {
+                color: $red-color;
+            }
+        }
+    }
+
+    &__description {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #7c7c7c;
+        max-height: 72px;
+        word-break: break-word;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
 }

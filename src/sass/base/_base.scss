@@ -4,60 +4,65 @@
 *,
 *::after,
 *::before {
-	margin: 0;
-	padding: 0;
-	box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
 }
 
 *:focus {
-	outline: none !important;
+    outline: none !important;
 }
 
 * {
-	font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 a {
-	text-decoration: none !important;
+    text-decoration: none !important;
 }
 
 li {
-	list-style: none;
+    list-style: none;
 }
 
 body {
-	overflow-x: hidden !important;
-	background: #262626;
+    overflow-x: hidden !important;
+    background: #262626;
 }
 
 html {
-	// This defines what 1rem is
-	font-size: 62.5%; // 1rem = 10px;
+    // This defines what 1rem is
+    font-size: 62.5%; // 1rem = 10px;
 
-	@include respond(big-desktop) {
-		font-size: 62.5%; // 1rem = 12px
-	}
+    @include respond(big-desktop) {
+        font-size: 62.5%; // 1rem = 12px
+    }
 
-	@include respond(tab-land) {
-		font-size: 56.25%; // 1rem = 9px ,
-	}
+    @include respond(tab-land) {
+        font-size: 56.25%; // 1rem = 9px ,
+    }
 
-	@include respond(tab-port) {
-		font-size: 50%; // 1rem = 8px
-	}
+    @include respond(tab-port) {
+        font-size: 50%; // 1rem = 8px
+    }
 }
 
 body {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .sticky {
-	position: sticky;
-	top: 0;
-	left: 0;
-	z-index: 99;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 99;
 }
 
 #root {
-	overflow-x: hidden;
+    overflow-x: hidden;
+}
+
+.ant-pagination-prev,
+.ant-pagination-next {
+    display: none;
 }

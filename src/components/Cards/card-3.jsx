@@ -1,21 +1,20 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const Card3 = props => {
-	return (
-		<div class="post-item card3">
-			<img
-				src="http://video-blog.thimpress.com/wp-content/uploads/2019/01/pexels-photo-598687-4-01-390x575.jpeg"
-				alt="pexels-photo-598687-4-01"
-				class=""
-			></img>
+const Card3 = (props) => {
+    const { image, title, url, shortDescription } = props;
 
-			<div class="card3__overlay"></div>
+    return (
+        <div class="post-item card3">
+            <img src={image} alt={title} class=""></img>
 
-			<a href="#" class="card3__content" tabindex="0">
-				<span class="card3__title">Top Box Office</span> 8 Movies{" "}
-			</a>
-		</div>
-	);
+            <div class="card3__overlay"></div>
+
+            <Link to={`/bai-viet/${url}`} class="card3__content" tabindex="0">
+                <span class="card3__title">{shortDescription}</span>
+            </Link>
+        </div>
+    );
 };
 
 export default Card3;
