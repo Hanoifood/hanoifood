@@ -1,26 +1,21 @@
 {
   "files": {
-    "main.css": "/hanoitravel/static/css/main.5a912c1b.chunk.css",
-    "main.js": "/hanoitravel/static/js/main.f22ca515.chunk.js",
-    "main.js.map": "/hanoitravel/static/js/main.f22ca515.chunk.js.map",
-    "runtime-main.js": "/hanoitravel/static/js/runtime-main.78124930.js",
-    "runtime-main.js.map": "/hanoitravel/static/js/runtime-main.78124930.js.map",
-    "static/css/2.4e0b54ea.chunk.css": "/hanoitravel/static/css/2.4e0b54ea.chunk.css",
-    "static/js/2.9a773cc4.chunk.js": "/hanoitravel/static/js/2.9a773cc4.chunk.js",
-    "static/js/2.9a773cc4.chunk.js.map": "/hanoitravel/static/js/2.9a773cc4.chunk.js.map",
-    "index.html": "/hanoitravel/index.html",
-    "precache-manifest.e76f8f1d63aef1054391982042e76a31.js": "/hanoitravel/precache-manifest.e76f8f1d63aef1054391982042e76a31.js",
-    "service-worker.js": "/hanoitravel/service-worker.js",
-    "static/css/2.4e0b54ea.chunk.css.map": "/hanoitravel/static/css/2.4e0b54ea.chunk.css.map",
-    "static/css/main.5a912c1b.chunk.css.map": "/hanoitravel/static/css/main.5a912c1b.chunk.css.map",
-    "static/js/2.9a773cc4.chunk.js.LICENSE.txt": "/hanoitravel/static/js/2.9a773cc4.chunk.js.LICENSE.txt",
-    "static/media/bg-01.jpg": "/hanoitravel/static/media/bg-01.37b5c5d9.jpg"
+    "main.css": "/hanoifood/static/css/main.97e816be.chunk.css",
+    "main.js": "/hanoifood/static/js/main.5a3c18c2.chunk.js",
+    "runtime-main.js": "/hanoifood/static/js/runtime-main.3f59cc1c.js",
+    "static/css/2.cecb8c7c.chunk.css": "/hanoifood/static/css/2.cecb8c7c.chunk.css",
+    "static/js/2.411c773d.chunk.js": "/hanoifood/static/js/2.411c773d.chunk.js",
+    "index.html": "/hanoifood/index.html",
+    "precache-manifest.c17cbeb3c1e05d7516958c9819fc3c66.js": "/hanoifood/precache-manifest.c17cbeb3c1e05d7516958c9819fc3c66.js",
+    "service-worker.js": "/hanoifood/service-worker.js",
+    "static/js/2.411c773d.chunk.js.LICENSE.txt": "/hanoifood/static/js/2.411c773d.chunk.js.LICENSE.txt",
+    "static/media/bg-01.jpg": "/hanoifood/static/media/bg-01.37b5c5d9.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.78124930.js",
-    "static/css/2.4e0b54ea.chunk.css",
-    "static/js/2.9a773cc4.chunk.js",
-    "static/css/main.5a912c1b.chunk.css",
-    "static/js/main.f22ca515.chunk.js"
+    "static/js/runtime-main.3f59cc1c.js",
+    "static/css/2.cecb8c7c.chunk.css",
+    "static/js/2.411c773d.chunk.js",
+    "static/css/main.97e816be.chunk.css",
+    "static/js/main.5a3c18c2.chunk.js"
   ]
 }
